@@ -12,15 +12,14 @@ h1 {
 }
 
 /* Select the h1 elements in the document and put the background color #FF7F50 */
- 
+
 h4 {
-     background-color: #FF7F50;
+    background-color: #FF7F50;
 }
 
 /* Select the first of type h4 descendant to article element with .basic--info class, override the previous background color style */
 
-.basic--info > h4:first-of-type {
+.basic--info>h4:first-of-type {
     font-style: italic;
     background-color: white;
 }
-
